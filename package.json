@@ -1,14 +1,15 @@
 {
   "dependencies": {
     "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-professional": "^1.1.0",
     "resume-cli": "^3.0.8"
   },
   "name": "cv",
   "version": "1.0.0",
   "description": "My CV :)",
   "scripts": {
-    "build": "resume export index.html --theme macchiato",
-    "build:pdf": "resume export resume.pdf --theme macchiato"
+    "build": "resume export index.html --theme professional",
+    "build:pdf": "resume export resume.pdf --theme professional"
   },
   "repository": {
     "type": "git",

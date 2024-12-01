@@ -124,94 +124,29 @@
   "publications": [],
   "skills": [
     {
-      "name": "Technical Leadership",
+      "name": "Engineering Leadership",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Product Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Distributed Systems",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": []
+      "keywords": ["Technical Strategy", "Architecture Decisions", "Technical Excellence"]
     },
     {
       "name": "People Management",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Agile Methodologies",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TON",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Change Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Spring Framework",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Hiring",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Smart Contracts",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web3",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Domain-Driven Design (DDD)",
-      "level": "",
-      "keywords": []
+      "keywords": ["Career Development", "Team Building", "Performance Management"]
     },
     {
       "name": "Organizational Development",
       "level": "",
-      "keywords": []
+      "keywords": ["Change Management", "Process Improvement", "Scaling Teams"]
     },
     {
-      "name": "Cross-functional Team Leadership",
+      "name": "Product Strategy",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Amazon Web Services (AWS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Software Architecture",
-      "level": "",
-      "keywords": []
+      "keywords": ["Product Development", "Stakeholder Management", "Cross-functional Leadership"]
     },
     {
       "name": "Tech Strategy",
       "level": "",
-      "keywords": []
+      "keywords": ["System Design", "Technology Selection", "Innovation"]
     }
   ],
   "languages": [
