@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tim Schmolka",
-    "label": "people & tech (in this order) @Kleinanzeigen",
-    "image": "",
+    "label": "people & tech leader",
+    "image": "https://timschmolka.github.io/cv/assets/profile.jpg",
     "email": "tim@schmolka.org",
     "phone": "",
-    "url": "",
+    "url": "https://schmolka.org",
     "summary": "Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience.\n\nTalk with me about: Squad Health, Organisational Growth, Hiring, Situational Awareness\n\nWithin my career I took part in many projects of different scales and diverse domains such as designing a bot building platform within a young startup, building security critical analysis systems for instances of the federal government and developing Germanys biggest C2C marketplace.",
     "location": {
-      "countryCode": "US",
+      "countryCode": "DE",
       "address": "Germany"
     },
     "profiles": [
@@ -27,8 +27,9 @@
       "startDate": "2023-03-31",
       "endDate": "",
       "highlights": [],
-      "summary": "- Leading a team of 9 IC software engineers of different seniorities and tech leads within our Transactions Area, adopting situational and servant leadership.\nDomains include Payment methods, Shipping Integration & Promotions\n(1o1s, coaching, mentoring, conducting performance reviews, establishing career ambitions, skill gap analysis, squad health)\n\n- Since 2024, sharing Head of Technology responsibilities for Transactions by overviewing stability and business continuity topics and reporting to the Kleinanzeigen Management Team.\n\n- Leading the Engineering Management Guild, moderating and aligning the purpose, leveraging the impact and ambition of ~8 active EMs, e.g. launching an EM mentoring program and an IC leveling matrix for Engineering. \n\n- Driving the company-wide backend engineering hiring process and support the other tech positions and doing interviews. Restructuring and standardising the whole backend interviewing flow, resulting in more objective and scalable assessment.\n(hire decisions, reducing time-to-hire, collaborating with the CTO and Talent Acquisition Team, introduing internal SLOs)\n\n- Co-Responsible for the yearly trainee program for Kleinanzeigen & mobile.de, accountable for the tech recruiting process, ensuring a constant stream of new, diverse junior talent.\n\nTechnologies mainly used:\nJava, Spring, gRPC, MySQL, Kafka, Grafana, Kubernetes, AWS, React, Typescript",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/kleinanzeigen/",
+      "location": "Berlin, Germany"
     },
     {
       "name": "eBay Kleinanzeigen",
@@ -36,8 +37,9 @@
       "startDate": "2021-07-31",
       "endDate": "2023-02-28",
       "highlights": [],
-      "summary": "- Tech- and Team-Lead for the Motors team, established in September 2021\n(on-platform c2c optimisations, x-entity cooperation with Mobile.de as competitive edge in local vehicle classifieds industry, forming/storming/norming/performing, OKR planning, stakeholder mgmt, tech debt mgmt, onboarding, tech strategy, A/B testing, user research)\n\n- Managing a team of 5 IC software engineers of different seniorities\n(1o1s, coaching, mentoring, performance reviews, hands-on & hands-off mix, establishing career ambitions, skill gap analysis)\n\n- Driving dev enablement topics with other engineering managers within our business unit and the whole engineering function.\n(sketching out a career framework, inverse conway, culture of accountability)\n\n- Actively involving myself in in cross-team architectural collaboration rounds and enjoy mentoring other developers.\n(getting buy-in for ideas, analyzing different architectures, applying and teaching DDD principles)\n\n- Driving the company-wide backend engineering hiring process and support the other tech positions via doing interviews.\n(objective and scalable assessment, hire decisions, reducing time-to-hire, collaborating with the CTO and Talent Acquisition Team, introduing internal SLOs)\n\n- Co-Responsible for the yearly trainee program for Kleinanzeigen & mobile.de, accountable for the tech recruiting process.\n\nTechnologies mainly used:\nJava, Spring, gRPC, MySQL, Kafka, Grafana, Kubernetes, GCP, React, Typescript",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/kleinanzeigen/",
+      "location": "Berlin, Germany"
     },
     {
       "name": "eBay Kleinanzeigen",
@@ -45,8 +47,9 @@
       "startDate": "2020-07-31",
       "endDate": "2021-07-31",
       "highlights": [],
-      "summary": "- Shared technical leadership responsibilities in the B2C Team (stakeholder mgmt, tech debt planning, leading architectural discussions) for the areas Motors and PRO.\n\n- Responsible for the development of PRO, our subscription-based solution for professional customers & fostering a cross-entity partnership with Mobile.de, using two brands for a competitive edge in the vehicle market.\n\n- Actively involved myself in in cross-team architectural collaboration rounds\n\n- Mentored other developers (domain & tech).\n\n- I supported the hiring process via coding reviews and interviews.\n\nTechnologies mainly used:\nJava, Spring, gRPC, MySQL, Kafka, Grafana, Kubernetes, GCP, React, Typescript",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/kleinanzeigen/",
+      "location": "Berlin, Germany"
     },
     {
       "name": "eBay Kleinanzeigen",
@@ -54,9 +57,9 @@
       "startDate": "2018-12-31",
       "endDate": "2020-06-30",
       "highlights": [],
-      "summary": "- Since Jan '20 shared technical leadership responsibilities in the B2C Team (stakeholder mgmt, tech debt planning, leading architectural discussions) for the areas Motors and PRO.\n\n- Worked in a cross-functional topic team on the B2C-side of the Kleinanzeigen platform.\n\n- Development in a distributed microservice architecture in a multi-dc setup, including designing, implementing and operating our services. \n\n- \"Knowledge owner\" for the correct and scalable usage of gRPC in our engineering function.\n\n- Onboarded four new colleagues of different seniority\n\nTechnologies mainly used:\nJava, Spring, gRPC, MySQL, Kafka, Grafana, OpenStack, React, Typescript",
+      "summary": "",
       "url": "https://www.linkedin.com/company/kleinanzeigen/",
-      "location": "Berlin und Umgebung, Deutschland"
+      "location": "Berlin, Germany"
     },
     {
       "name": "Mercury.ai",
@@ -64,9 +67,9 @@
       "startDate": "2018-04-30",
       "endDate": "2019-07-31",
       "highlights": [],
-      "summary": "- Product ownership and lead development of the bot building platform, enabling rapid configuration and deployment of chatbots, accessible for end users and businesses.\n\n- Development and maintenance of the centralised logging platform, providing a global monitoring and analysing interface for all platform components.\n\n- Co-Development of the Unified Messaging Hub, providing a centralized middleware to simplify and unify messaging and its routing throughout the platform.\n\n- Responsible for operational concerns on the AWS platform, ranging from managing alerting, continuous deployment processes and dynamic scaling. \n\n- Optimizing the software development process in our team, introducing CI/CD, Code review, GitFlow, Binary Management\n\nTechnologies mainly used:\nJava, Spring Boot, Guice, AWS platform (EC2, S3, ECS, SQS, Lambda, Cloudwatch), Elasticsearch",
+      "summary": "",
       "url": "https://www.linkedin.com/company/mercury.ai/",
-      "location": "Bielefeld und Umgebung, Deutschland"
+      "location": "Bielefeld, Germany"
     },
     {
       "name": "Empolis Information Management GmbH",
@@ -74,9 +77,9 @@
       "startDate": "2017-07-31",
       "endDate": "2018-03-31",
       "highlights": [],
-      "summary": "- With my apprenticeship successfully ending, I received the offer to continue working for the current company as a Junior Software Engineer.\n\n- Design, development, and maintenance of enterprise search systems in the context of patent search, public administration, automotive and insurance.\n\n- Systematic evaluation and case studies of various search engines such as Elasticsearch and Apache Solr for specific use cases and tenders.\n\n- Establishing DevOps principles such as continuous integration, delivery pipelines and containerization (end-to-end testing, image creation, artifact management).\n\n- Involvement in architectural decisions in key projects.\nExperience working in conjunction with multiple teams across the company.\n\nTechnologies mainly used:\nLua, Java, Spring Boot, Elasticsearch, AngularJS, MySQL, our internal search engine, Ruta, Docker",
+      "summary": "",
       "url": "https://www.linkedin.com/company/empolis/",
-      "location": "Bielefeld"
+      "location": "Bielefeld, Germany"
     },
     {
       "name": "Empolis Information Management GmbH",
@@ -86,7 +89,7 @@
       "highlights": [],
       "summary": "- In my apprenticeship, I got to know the modern techniques and methodologies of professional software development in an agile environment.\n\n- Because of prior knowledge in software development and my A-levels graduation, I grasped the possibility to shorten my apprenticeship down to two years. \n\n- In this time, I got to learn and apply concepts and principles and architectures of scalable Java and Lua enterprise web applications.\n\n- Furthermore, I did internal and external consulting and customer training.\nI learned the correct usage of Build-Tools such as Maven, Nexus and Gradle for management of multi-module projects.\n\n- While working in my development team, I learned how to use SVN and Git as Source Code Management Systems.\n\n- Alongside implementing business logic around several search-engines, I grasped the most important and core concepts of Data Mining and Information Retrieval.\n\n- Technical lead in the intern apprentice software project in the domain of market analysis and text mining.",
       "url": "https://www.linkedin.com/company/empolis/",
-      "location": "Bielefeld und Umgebung, Deutschland"
+      "location": "Bielefeld, Germany"
     }
   ],
   "volunteer": [],
@@ -132,32 +135,7 @@
       "keywords": []
     },
     {
-      "name": "Entrepreneurship",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Brand Development",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Distributed Systems",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Apache Kafka",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Objektorientierte Programmierung (OOP)",
       "level": "",
       "keywords": []
     },
@@ -207,11 +185,6 @@
       "keywords": []
     },
     {
-      "name": "gRPC",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Domain-Driven Design (DDD)",
       "level": "",
       "keywords": []
@@ -233,16 +206,6 @@
     },
     {
       "name": "Software Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Process Improvement",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
       "level": "",
       "keywords": []
     },

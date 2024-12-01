@@ -1,0 +1,64 @@
+name: Deploy Resume
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install resume-cli and theme
+        run: |
+          npm install -g resume-cli@latest
+          npm install jsonresume-theme-stackoverflow@latest
+
+      - name: Validate Resume
+        run: resume validate resume.json
+
+      - name: Build Resume
+        run: |
+          resume export index.html --theme stackoverflow
+
+      - name: Copy assets
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r assets _site/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
