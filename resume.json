@@ -17,11 +17,10 @@
   },
   "work": [
     {
-      "name": "Kleinanzeigen",
+      "name": "Adevinta • Kleinanzeigen",
       "position": "Engineering Manager - Transactions",
-      "url": "https://www.kleinanzeigen.de",
       "startDate": "2023-03",
-      "summary": "Engineering leader managing critical revenue systems across payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
+      "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
       "location": "Berlin, Germany",
       "highlights": [
         "Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems",
@@ -42,7 +41,7 @@
       ]
     },
     {
-      "name": "Kleinanzeigen",
+      "name": "eBay Inc. • eBay Kleinanzeigen",
       "position": "Engineering Manager, Tech Lead - Motors",
       "startDate": "2021-07",
       "endDate": "2023-02",
