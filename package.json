@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "jsonresume-theme-actual": "^0.2.2",
     "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-onepage-plus": "^1.0.1",
     "jsonresume-theme-professional": "^1.1.0",
     "resume-cli": "^3.0.8"
   },
@@ -8,8 +10,8 @@
   "version": "1.0.0",
   "description": "My CV :)",
   "scripts": {
-    "build": "resume export index.html --theme professional",
-    "build:pdf": "resume export resume.pdf --theme professional"
+    "build": "resume export index.html --theme actual",
+    "build:pdf": "resume export resume.pdf --theme actual"
   },
   "repository": {
     "type": "git",

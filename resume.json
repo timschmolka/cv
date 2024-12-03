@@ -1,173 +1,212 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tim Schmolka",
-    "label": "people & tech leader",
-    "image": "https://timschmolka.github.io/cv/assets/profile.jpg",
+    "label": "Engineering Manager",
     "email": "tim@schmolka.org",
-    "phone": "",
-    "url": "https://schmolka.org",
-    "summary": "Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience.\n\nTalk with me about: Squad Health, Organisational Growth, Hiring, Situational Awareness\n\nWithin my career I took part in many projects of different scales and diverse domains such as designing a bot building platform within a young startup, building security critical analysis systems for instances of the federal government and developing Germanys biggest C2C marketplace.",
+    "summary": "Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.\nExpert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.",
     "location": {
-      "countryCode": "DE",
-      "address": "Germany"
+      "city": "Berlin",
+      "countryCode": "DE"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "tim-schmolka",
-        "url": "https://www.linkedin.com/in/tim-schmolka/"
+        "url": "www.linkedin.com/in/tim-schmolka"
       }
     ]
   },
   "work": [
     {
       "name": "Kleinanzeigen",
-      "position": "Engineering Manager - Transactions (Payments, Shipping, Promotions)",
-      "startDate": "2023-03-31",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/",
-      "location": "Berlin, Germany"
+      "position": "Engineering Manager - Transactions",
+      "url": "https://www.kleinanzeigen.de",
+      "startDate": "2023-03",
+      "endDate": "",
+      "summary": "Engineering leader managing critical revenue systems across payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
+      "location": "Berlin, Germany",
+      "highlights": [
+        "Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems",
+        "Managed business continuity and feature delivery during organizational and technological transformation, reporting to management team",
+        "Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers",
+        "Established enhanced incident management processes, improving system reliability visibility and investment planning",
+        "Leading Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
+      ],
+      "skills": [
+        {
+          "name": "Engineering Leadership",
+          "keywords": ["• Team Management", "• Organizational Development", "• Technical Strategy", "• Mentoring", "• Hiring"]
+        },
+        {
+          "name": "Technologies",
+          "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• AWS", "• React", "• TypeScript"]
+        }
+      ]
     },
     {
-      "name": "eBay Kleinanzeigen",
+      "name": "Kleinanzeigen",
       "position": "Engineering Manager, Tech Lead - Motors",
-      "startDate": "2021-07-31",
-      "endDate": "2023-02-28",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/",
-      "location": "Berlin, Germany"
+      "startDate": "2021-07",
+      "endDate": "2023-02",
+      "summary": "Scaled Motors vertical into a strategic business unit through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
+      "location": "Berlin, Germany",
+      "highlights": [
+        "Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research",
+        "Developed and grew team from ground up, successfully promoting multiple engineers and establishing strong technical leadership pipeline",
+        "Implemented tailored agile framework focused on team strengths, resulting in one of the organization's most experimental and cross-functional teams",
+        "Established culture of accountability through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
+        "Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel",
+        "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with focus on career changers and diverse talent"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• GCP", "• React", "• TypeScript"]
+      }
     },
     {
-      "name": "eBay Kleinanzeigen",
+      "name": "eBay Inc. • eBay Kleinanzeigen",
       "position": "Senior Software Engineer",
-      "startDate": "2020-07-31",
-      "endDate": "2021-07-31",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/",
-      "location": "Berlin, Germany"
+      "startDate": "2020-07",
+      "endDate": "2021-07",
+      "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
+      "location": "Berlin, Germany",
+      "highlights": [
+        "Led major packaging & pricing initiative for PRO business, overseeing development of multiple commercial features",
+        "Architected and executed extraction of Motors domain from monolith, significantly reducing deployment bottlenecks and enabling autonomous team setup",
+        "Shared technical leadership for B2C platform, driving architectural decisions and technical debt management",
+        "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
+        "Established technical assessment practices through interviews and coding challenge reviews"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• GCP"]
+      }
     },
     {
-      "name": "eBay Kleinanzeigen",
+      "name": "eBay Inc. • eBay Kleinanzeigen",
       "position": "Software Engineer",
-      "startDate": "2018-12-31",
-      "endDate": "2020-06-30",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/kleinanzeigen/",
-      "location": "Berlin, Germany"
+      "startDate": "2018-12",
+      "endDate": "2020-06",
+      "summary": "Member of cross-functional B2C team, focusing on platform features and technical excellence.",
+      "location": "Berlin, Germany",
+      "highlights": [
+        "Established gRPC best practices across engineering org, significantly improving service reliability during deployments through enhanced load balancing",
+        "Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management",
+        "Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions",
+        "Contributed to engineering onboarding processes and documentation, including creation of interactive onboarding experience",
+        "Operated distributed microservices in multi-datacenter setup"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• OpenStack"]
+      }
     },
     {
       "name": "Mercury.ai",
       "position": "Backend Engineer",
-      "startDate": "2018-04-30",
-      "endDate": "2019-07-31",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/mercury.ai/",
-      "location": "Bielefeld, Germany"
+      "startDate": "2018-04",
+      "endDate": "2019-07",
+      "summary": "Led development of bot building platform and established operational excellence.",
+      "location": "Bielefeld, Germany",
+      "highlights": [
+        "Led development of bot building platform enabling rapid chatbot deployment",
+        "Designed and implemented centralized logging platform for global monitoring",
+        "Established operational excellence on AWS platform: alerting, CI/CD, and dynamic scaling",
+        "Optimized development processes by introducing CI/CD, code review, and GitFlow practices"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring Boot", "• Guice", "• AWS", "• Elasticsearch"]
+      }
     },
     {
       "name": "Empolis Information Management GmbH",
+      "url": "https://www.empolis.com",
       "position": "Junior Solution Engineer",
-      "startDate": "2017-07-31",
-      "endDate": "2018-03-31",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/empolis/",
-      "location": "Bielefeld, Germany"
-    },
-    {
-      "name": "Empolis Information Management GmbH",
-      "position": "Apprentice IT Specialist - Application Development",
-      "startDate": "2015-08-31",
-      "endDate": "2017-06-30",
-      "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/empolis/",
-      "location": "Bielefeld, Germany"
+      "startDate": "2017-07",
+      "endDate": "2018-03",
+      "location": "Bielefeld, Germany",
+      "highlights": [
+        "Designed and developed enterprise search systems for patent search and public administration",
+        "Conducted systematic evaluations of search engines for specific use cases",
+        "Established DevOps practices including CI/CD pipelines and containerization"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring Boot", "• Elasticsearch", "• AngularJS", "• MySQL", "• Docker"]
+      }
     }
   ],
-  "volunteer": [],
   "education": [
     {
-      "institution": "Carl-Severing-Berufskolleg für Metall- und Elektrotechnik, Bielefeld",
-      "area": "Application Development",
-      "studyType": "State-recognized Information Technology Specialist",
-      "startDate": "2015-12-31",
-      "endDate": "2017-12-31",
-      "score": "",
-      "courses": []
+      "institution": "Bielefeld University, exmatriculated",
+      "area": "Cognitive Informatics",
+      "startDate": "2017",
+      "endDate": "2017"
     },
     {
-      "institution": "Bielefeld University",
-      "area": "Cognitive Informatics",
-      "studyType": "Bachelor of Science - BS",
-      "startDate": "2017-12-31",
-      "endDate": "2017-12-31",
-      "score": "exmatriculated",
-      "courses": []
+      "institution": "Carl-Severing-Berufskolleg für Metall- und Elektrotechnik",
+      "area": "Application Development",
+      "studyType": "State-recognized IT Specialist",
+      "startDate": "2015",
+      "endDate": "2017"
     }
   ],
   "awards": [
     {
-      "title": "eBay Critical Talent Award",
-      "date": "2020-02-28",
+      "title": "Critical Talent Award",
+      "date": "2020",
       "awarder": "eBay Inc.",
-      "summary": "The Critical Talent Award is a stock grant awarded to a small percentage of top performers at eBay on an annual basis."
+      "summary": "Distinguished with eBay's highest individual recognition for exceptional impact."
     }
   ],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
-      "name": "Engineering Leadership",
-      "level": "",
-      "keywords": ["Technical Strategy", "Architecture Decisions", "Technical Excellence"]
+      "name": "Leadership",
+      "keywords": [
+        "• Engineering Management",
+        "• Technical Leadership",
+        "• Team Building",
+        "• Mentoring",
+        "• Organizational Development",
+        "• Stakeholder Management"
+      ]
     },
     {
-      "name": "People Management",
-      "level": "",
-      "keywords": ["Career Development", "Team Building", "Performance Management"]
+      "name": "Technical",
+      "keywords": [
+        "• Distributed Systems",
+        "• Microservices",
+        "• System Design",
+        "• Java",
+        "• Spring",
+        "• NoSQL",
+        "• Kubernetes",
+        "• AWS"
+      ]
     },
     {
-      "name": "Organizational Development",
-      "level": "",
-      "keywords": ["Change Management", "Process Improvement", "Scaling Teams"]
-    },
-    {
-      "name": "Product Strategy",
-      "level": "",
-      "keywords": ["Product Development", "Stakeholder Management", "Cross-functional Leadership"]
-    },
-    {
-      "name": "Tech Strategy",
-      "level": "",
-      "keywords": ["System Design", "Technology Selection", "Innovation"]
+      "name": "Domain Expertise",
+      "keywords": [
+        "• E-commerce Platforms",
+        "• Payment Systems",
+        "• Promotion Engines",
+        "• DevOps",
+        "• Agile Methodologies"
+      ]
     }
   ],
   "languages": [
     {
-      "fluency": "Native Speaker",
-      "language": "Deutsch"
+      "language": "German",
+      "fluency": "Native"
     },
     {
-      "fluency": "Full Professional",
-      "language": "English"
+      "language": "English",
+      "fluency": "Full Professional"
     },
     {
-      "fluency": "Elementary",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "fluency": "Elementary"
     }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": [],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+  ]
 }
