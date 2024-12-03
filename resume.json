@@ -45,7 +45,7 @@
       "position": "Engineering Manager, Tech Lead - Motors",
       "startDate": "2021-07",
       "endDate": "2023-02",
-      "summary": "Scaled Motors vertical into a **strategic business unit** through **dedicated team building**, **data-driven experimentation**, and **cross-entity partnerships**.",
+      "summary": "Scaled Motors vertical into a **strategic business unit** through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
       "location": "Berlin, Germany",
       "highlights": [
         "Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research",
@@ -118,6 +118,7 @@
     },
     {
       "name": "Empolis Information Management GmbH",
+      "url": "https://www.empolis.com",
       "position": "Junior Solution Engineer",
       "startDate": "2017-07",
       "endDate": "2018-03",
