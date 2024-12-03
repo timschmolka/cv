@@ -131,6 +131,23 @@
         "name": "Technologies",
         "keywords": ["• Java", "• Spring Boot", "• Elasticsearch", "• AngularJS", "• MySQL", "• Docker"]
       }
+    },
+    {
+      "name": "Empolis Information Management GmbH",
+      "position": "Apprentice IT Specialist - Application Development",
+      "startDate": "2015-08",
+      "endDate": "2017-06",
+      "location": "Bielefeld, Germany",
+      "highlights": [
+        "Successfully reduced duration of the program from three years down to two years, due to exceptional performance",
+        "Designed and developed enterprise search systems for patent search and public administration",
+        "Conducted systematic evaluations of search engines for specific use cases",
+        "Established DevOps practices including CI/CD pipelines and containerization"
+      ],
+      "skills": {
+        "name": "Technologies",
+        "keywords": ["• Java", "• Spring Boot", "• Elasticsearch", "• AngularJS", "• MySQL", "• Docker"]
+      }
     }
   ],
   "education": [
