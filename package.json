@@ -4,14 +4,15 @@
     "jsonresume-theme-macchiato": "^1.1.0",
     "jsonresume-theme-onepage-plus": "^1.0.1",
     "jsonresume-theme-professional": "^1.1.0",
-    "resume-cli": "^3.0.8"
+    "jsonresume-theme-straightforward": "^0.2.0",
+    "resume-cli": "^3.1.2"
   },
   "name": "cv",
   "version": "1.0.0",
   "description": "My CV :)",
   "scripts": {
-    "build": "resume export index.html --theme actual",
-    "build:pdf": "resume export resume.pdf --theme actual"
+    "build": "resume export index.html --theme straightforward",
+    "build:pdf": "resume export resume.pdf --theme straightforward"
   },
   "repository": {
     "type": "git",

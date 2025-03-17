@@ -3,7 +3,7 @@
     "name": "Tim Schmolka",
     "label": "Engineering Manager",
     "email": "tim@schmolka.org",
-    "summary": "**Technical Leader** (5y+) and **People Manager** (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.\nExpert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.",
+    "summary": "Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.\nExpert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -20,7 +20,7 @@
       "name": "Adevinta • Kleinanzeigen",
       "position": "Engineering Manager - Transactions",
       "startDate": "2023-03",
-      "summary": "Engineering leader managing **critical revenue systems** for **Germany's largest C2C marketplace**, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
+      "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
       "location": "Berlin, Germany",
       "highlights": [
         "Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems",
@@ -32,11 +32,11 @@
       "skills": [
         {
           "name": "Engineering Leadership",
-          "keywords": ["• Team Management", "• Organizational Development", "• Technical Strategy", "• Mentoring", "• Hiring"]
+          "keywords": ["Team Management", "Organizational Development", "Technical Strategy", "Mentoring", "Hiring"]
         },
         {
           "name": "Technologies",
-          "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• AWS", "• React", "• TypeScript"]
+          "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "AWS", "React", "TypeScript"]
         }
       ]
     },
@@ -45,7 +45,7 @@
       "position": "Engineering Manager - Motors",
       "startDate": "2021-07",
       "endDate": "2023-02",
-      "summary": "Scaled Motors vertical into a **strategic business unit** through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
+      "summary": "Scaled Motors vertical into a strategic business unit through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
       "location": "Berlin, Germany",
       "highlights": [
         "Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research",
@@ -57,7 +57,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• GCP", "• React", "• TypeScript"]
+        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "GCP", "React", "TypeScript"]
       }
     },
     {
@@ -65,7 +65,7 @@
       "position": "Senior Software Engineer",
       "startDate": "2020-07",
       "endDate": "2021-07",
-      "summary": "Led technical development of **PRO subscription platform** and spearheaded **strategic initiatives**.",
+      "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
       "location": "Berlin, Germany",
       "highlights": [
         "Led major packaging & pricing initiative for PRO business, overseeing development of multiple commercial features",
@@ -76,7 +76,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• Kubernetes", "• GCP"]
+        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "GCP"]
       }
     },
     {
@@ -84,7 +84,7 @@
       "position": "Software Engineer",
       "startDate": "2018-12",
       "endDate": "2020-06",
-      "summary": "Member of **cross-functional B2C team**, focusing on **platform features** and **technical excellence**.",
+      "summary": "Member of cross-functional B2C team, focusing on platform features and technical excellence.",
       "location": "Berlin, Germany",
       "highlights": [
         "Established gRPC best practices across engineering org, significantly improving service reliability during deployments through enhanced load balancing",
@@ -95,7 +95,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring", "• gRPC", "• MySQL", "• Kafka", "• Grafana", "• OpenStack"]
+        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "OpenStack"]
       }
     },
     {
@@ -103,7 +103,7 @@
       "position": "Backend Engineer",
       "startDate": "2018-04",
       "endDate": "2019-07",
-      "summary": "Led development of **bot building platform** and established **operational excellence**.",
+      "summary": "Led development of bot building platform and established operational excellence.",
       "location": "Bielefeld, Germany",
       "highlights": [
         "Led development of bot building platform enabling rapid chatbot deployment",
@@ -113,7 +113,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring Boot", "• Guice", "• AWS", "• Elasticsearch"]
+        "keywords": ["Java", "Spring Boot", "Guice", "AWS", "Elasticsearch"]
       }
     },
     {
@@ -129,7 +129,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring Boot", "• Elasticsearch", "• AngularJS", "• MySQL", "• Docker"]
+        "keywords": ["Java", "Spring Boot", "Elasticsearch", "AngularJS", "MySQL", "Docker"]
       }
     },
     {
@@ -146,7 +146,7 @@
       ],
       "skills": {
         "name": "Technologies",
-        "keywords": ["• Java", "• Spring Boot", "• Elasticsearch", "• AngularJS", "• MySQL", "• Docker"]
+        "keywords": ["Java", "Spring Boot", "Elasticsearch", "AngularJS", "MySQL", "Docker"]
       }
     }
   ],
@@ -170,42 +170,43 @@
       "title": "Critical Talent Award",
       "date": "2020",
       "awarder": "eBay Inc.",
-      "summary": "Distinguished with eBay's **highest individual recognition** for **exceptional impact**."
+      "summary": "Distinguished with eBay's highest individual recognition for exceptional impact."
     }
   ],
   "skills": [
     {
       "name": "Leadership",
       "keywords": [
-        "• Engineering Management",
-        "• Technical Leadership",
-        "• Team Building",
-        "• Mentoring",
-        "• Organizational Development",
-        "• Stakeholder Management"
+        "Engineering Management",
+        "Technical Leadership",
+        "Team Building",
+        "Mentoring",
+        "Organizational Development",
+        "Stakeholder Management"
       ]
     },
     {
       "name": "Technical",
       "keywords": [
-        "• Distributed Systems",
-        "• Microservices",
-        "• System Design",
-        "• Java",
-        "• Spring",
-        "• NoSQL",
-        "• Kubernetes",
-        "• AWS"
+        "Distributed Systems",
+        "Microservices",
+        "Monoliths",
+        "System Design",
+        "Java",
+        "Spring",
+        "NoSQL",
+        "Kubernetes",
+        "AWS"
       ]
     },
     {
       "name": "Domain Expertise",
       "keywords": [
-        "• E-commerce Platforms",
-        "• Payment Systems",
-        "• Promotion Engines",
-        "• DevOps",
-        "• Agile Methodologies"
+        "E-commerce Platforms",
+        "Payment Systems",
+        "Promotion Engines",
+        "DevOps",
+        "Agile Methodologies"
       ]
     }
   ],
