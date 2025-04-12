@@ -7,7 +7,7 @@
     "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in building distributed teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
     "location": {
       "city": "Berlin",
-      "countryCode": "DE"
+      "countryCode": "Germany"
     },
     "profiles": [
       {
@@ -23,7 +23,6 @@
       "position": "Engineering Manager - Transactions",
       "startDate": "2023-03",
       "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
-      "location": "Berlin, Germany",
       "highlights": [
         "Led engineering team of 9 engineers (from trainee to staff level) including a dedicated Tech Lead, establishing a scalable leadership model while delivering business-critical payment, shipping, and promotion systems",
         "Directed business continuity and feature delivery during organizational and technological transformation, reporting to management team",
@@ -49,7 +48,6 @@
       "startDate": "2021-07",
       "endDate": "2023-02",
       "summary": "Scaled Motors vertical into a strategic business unit through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
-      "location": "Berlin, Germany",
       "highlights": [
         "Designed and implemented C2B revenue stream connecting private sellers with dealers during industry supply shortage, diversifying revenue beyond mobile.de dealer offerings through data-driven A/B testing",
         "Built and scaled team from ground up, promoting 2 engineers internally and establishing clear technical leadership pipeline with 100% retention rate",
@@ -70,7 +68,6 @@
       "startDate": "2020-07",
       "endDate": "2021-07",
       "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
-      "location": "Berlin, Germany",
       "highlights": [
         "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
@@ -90,7 +87,6 @@
       "startDate": "2018-12",
       "endDate": "2020-06",
       "summary": "Member of cross-functional B2C team, focusing on platform features and technical excellence.",
-      "location": "Berlin, Germany",
       "highlights": [
         "Established gRPC best practices across engineering org, improving service reliability during deployments through enhanced load balancing",
         "Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management",
@@ -110,7 +106,6 @@
       "startDate": "2018-04",
       "endDate": "2019-07",
       "summary": "Led development of bot building platform and established operational excellence.",
-      "location": "Bielefeld, Germany",
       "highlights": [
         "Led development of bot building platform enabling rapid chatbot deployment for enterprise clients",
         "Designed and implemented centralized logging platform for global monitoring",
@@ -128,7 +123,6 @@
       "position": "Junior Solution Engineer",
       "startDate": "2017-07",
       "endDate": "2018-03",
-      "location": "Bielefeld, Germany",
       "highlights": [
         "Designed and developed enterprise search systems for patent search and public administration",
         "Conducted systematic evaluations of search engines for specific use cases",
@@ -145,7 +139,6 @@
       "position": "Apprentice IT Specialist - Application Development",
       "startDate": "2015-08",
       "endDate": "2017-06",
-      "location": "Bielefeld, Germany",
       "highlights": [
         "Reduced duration of the program from three years down to two years, due to exceptional performance",
         "Contributed to enterprise search product development while learning core software engineering practices"
