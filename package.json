@@ -1,18 +1,15 @@
 {
   "dependencies": {
-    "jsonresume-theme-actual": "^0.2.2",
-    "jsonresume-theme-macchiato": "^1.1.0",
-    "jsonresume-theme-onepage-plus": "^1.0.1",
-    "jsonresume-theme-professional": "^1.1.0",
-    "jsonresume-theme-straightforward": "^0.2.0",
+    "@jsonresume/jsonresume-theme-class": "^0.4.2",
+    "jsonresume-theme-engineering": "github:skoenig/jsonresume-theme-engineering",
     "resume-cli": "^3.1.2"
   },
   "name": "cv",
   "version": "1.0.0",
   "description": "My CV :)",
   "scripts": {
-    "build": "resume export index.html --theme straightforward",
-    "build:pdf": "resume export resume.pdf --theme straightforward"
+    "build": "resume export index.html --theme jsonresume-theme-engineering",
+    "build:pdf": "resume export resume.pdf --theme jsonresume-theme-engineering"
   },
   "repository": {
     "type": "git",

@@ -1,485 +1,353 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+    <head>
 
-<head>
-  <meta charset='utf-8'>
-  <title>Tim Schmolka</title>
-    <meta name="description" content='**Technical Leader** (5y+) and **People Manager** (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.
-Expert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.'>
-  <meta name='viewport' content='width=device-width, minimal-ui'>
-  <meta name='resume-version' content=''>
-  <style>body {
-  font-family: "Times New Roman", Times, sans-serif;
-  /* 13px to 15px looks good */
-  font-size: 15px;
-  /* 1.38, 1.4, or 1.5 looks good */
-  line-height: 1.4;
-  margin: 0 auto;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+    <title>Tim Schmolka</title>
+
+    <style>
+    /* Template level */
+body {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    margin: 24px 48px;
 }
 
-#wrapper {
-  margin: 0 auto;
-  max-width: 800px;
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 5px;
 }
 
-/* when generating the resume as a website or as headless, this will keep a nice readable margin in place */
-#resume {
-  margin: 0.4in;
+h2 {
+    border-width: 1px;
+    border-style: none none solid none;
+    margin: 10px 0 2.5px 0;
 }
 
-/* use-case is when a user generates their resume as a website, saves their website as a PDF, and uses their browser to manage the margins during save */
-@media print {
-  #resume {
-    margin: 0;
-  }
+section {
+    margin: 3px 0;
 }
 
 ul {
-  margin-bottom: 0;
-}
-
-li {
-  margin-bottom: 2px;
+    margin: 0;
+    padding-left: 20px;
 }
 
 a {
-  color: black;
-  /* it's less likely someone will click the links; removing underline to reduce noise */
-  text-decoration: none;
+    text-decoration: none;
+    color: black;
 }
 
-.display-none {
-  /* note: this is to enable any automated parsing of content */
-  display: none;
+.item {
+    margin-top: 8px;
 }
 
-.basics {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.item>.item-header {
+    float: left;
+    display: block;
 }
 
-.basics>* {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 30%;
+.item>.item-header>.item-header-title {
+    font-weight: bold;
 }
 
-#basics-center-content {
-  text-align: center;
-  font-size: 30px;
+.item>.item-header>.item-header-subtitle {
+    font-style: italic;
 }
 
-#basics-right-content {
-  text-align: right;
-  font-size: 13px;
+.item>.item-details {
+    float: right;
+    text-align: right;
 }
 
-.basics .divider {
-  font-weight: bold;
-  margin-left: 5px;
-  margin-right: 5px;
+.item>.item-details>.item-details-title {
+    font-weight: bold;
 }
 
-.section-block {
-  display: block;
-  width: 100%;
+.clearfix {
+    clear: both;
 }
 
-.section-name {
-  color: #004687;
-  display: block;
-  font-weight: bold;
+.centered {
+    text-align: center;
 }
 
-.section-line {
-  border-color: none;
-  border-style: hidden;
-  border-width: 1px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+/* Section specific */
+/* basics */
+.vertical-separator {
+    text-align: center;
+    padding: 0 10px;
 }
 
-.section-intro-line {
-  border-color: #004687;
-  border-style: solid;
-  border-width: 1px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+.vertical-separator:not(:first-child) {
+    border-left: 1px solid #000;
+    text-align: center;
 }
 
-#work-block .block-header,
-#volunteer .block-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Set some print settings. */
+@media print {
+    @page {
+        size: portrait;
+        margin: 10mm 25mm;
+    }
+    .resume {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    .resume {
+        margin: 0px;
+        padding: 0px;
+    }
+    .controls {
+        display: none;
+    }
 }
 
-#work-block .block-header>*,
-#volunteer .block-header>* {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 30%;
-}
+    </style>
 
-.block-header .date {
-  font-weight: bold;
-  text-align: right;
-}
+    </head>
+    <body>
 
-.block-header .organization {
-  font-weight: bold;
-  text-align: left;
-}
-
-.block-header .title {
-  font-weight: bold;
-  text-align: center;
-}
-
-.section-content {
-  display: block;
-}
-
-.section-content ul {
-  padding-left: 20px;
-  margin-top: 3px;
-  list-style-type: circle;
-}
-
-.section-content .title {
-  font-weight: bold;
-}
-
-.section-content .date {
-  float: right;
-}
-
-.section-content .separator {
-  height: 7px;
-}
-
-.summary {
-  margin-top: 6px;
-}
-
-.job-block {
-  page-break-inside: avoid;
-}
-</style>
-</head>
-
-<body>
-  <div id='wrapper'>
-    <div id='resume'>
-        <div class='basics'>
-          <div id='basics-left-content'>
-            <div class='display-none'>
-                <span class='address'>
-                   Berlin
-                </span>
+    <div id="resume">
+        <section id="basics">
+            <h1>Tim Schmolka</h1>
+            <div class="contact centered">
+        <span class="vertical-separator"><a href="mailto:tim@schmolka.org">tim@schmolka.org</a></span><span class="vertical-separator">Berlin, DE</span>    </div>
+            <div class="summary">
+                <h2>Summary</h2>
+                <p>Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.
+        Expert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.</p>
             </div>
-          </div>
-
-          <div id='basics-center-content'>
-            <span class='name'>Tim Schmolka</span>
-          </div>
-
-          <div id='basics-right-content'>
-            <div class='contact-block'>
-                <div>
-                  <span class='email'>
-                    <a href="mailto:tim@schmolka.org">tim@schmolka.org</a>
-                  </span>
-                </div>
-                <div>
-                  <span class='address'>Berlin, Germany</span>
-                </div>
-            </div>
-
-              <div class='display-none'>
-                    <span class='url'>
-                      <a href='https://www.linkedin.com/in/tim-schmolka'>https://www.linkedin.com/in/tim-schmolka</a>
-                    </span>
-
-              </div>
-
-          </div>
-        </div>
-
-        <div id='summary-block' class='section-block'>
-          <div class='section-intro'>
-            <div class='section-name'>
-              <span>SUMMARY</span>
-            </div>
-            <div class='section-intro-line'></div>
-          </div>
-          <div class='section-content'>
-            <span>**Technical Leader** (5y+) and **People Manager** (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.
-      Expert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.</span>
-          </div>
-        </div>
-        <div class='section-line'></div>
-        <div id='skills' class='section-block'>
-          <div class='section-intro'>
-            <div class='section-name'>
-              <span>SKILLS AND TECH</span>
-            </div>
-            <div class='section-intro-line'></div>
-          </div>
-          <div class='section-content'>
-            <ul class='highlights'>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="item">
                 <li>
-                  <span class='title'>Leadership:</span>
-                      <span>• Engineering Management</span>,
-                      <span>• Technical Leadership</span>,
-                      <span>• Team Building</span>,
-                      <span>• Mentoring</span>,
-                      <span>• Organizational Development</span>,
-                      <span>• Stakeholder Management</span>.
+                    <strong>Leadership</strong>: Engineering Management, Technical Leadership, Team Building, Mentoring, Organizational Development, Stakeholder Management
                 </li>
                 <li>
-                  <span class='title'>Technical:</span>
-                      <span>• Distributed Systems</span>,
-                      <span>• Microservices</span>,
-                      <span>• System Design</span>,
-                      <span>• Java</span>,
-                      <span>• Spring</span>,
-                      <span>• NoSQL</span>,
-                      <span>• Kubernetes</span>,
-                      <span>• AWS</span>.
+                    <strong>Technical</strong>: Distributed Systems, Microservices, Monoliths, System Design, Java, Spring, NoSQL, Kubernetes, AWS
                 </li>
                 <li>
-                  <span class='title'>Domain Expertise:</span>
-                      <span>• E-commerce Platforms</span>,
-                      <span>• Payment Systems</span>,
-                      <span>• Promotion Engines</span>,
-                      <span>• DevOps</span>,
-                      <span>• Agile Methodologies</span>.
+                    <strong>Domain Expertise</strong>: E-commerce Platforms, Payment Systems, Promotion Engines, DevOps, Agile Methodologies
                 </li>
             </ul>
-          </div>
-        </div>
-        <div class='section-line'></div>
-        <div id='work-block' class='section-block'>
-          <div class='section-intro'>
-            <div class='section-name'>
-              <span>EXPERIENCE</span>
+        </section>
+        <section id="work">
+            <h2>Work Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Engineering Manager - Transactions
+                </div>
             </div>
-            <div class='section-intro-line'></div>
-          </div>
-          <div class='section-content'>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>Adevinta • Kleinanzeigen</span>
-                  <span class='title'>Engineering Manager - Transactions</span>
-                  <span class='date'>
-                    <time datetime="2023-03">Mar 2023</time> &mdash;
-                    Present
-                  </span>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Berlin, Germany
                 </div>
-
-                <div class='display-none'>
-                    <span class='location'>Berlin, Germany</span>
+                <div class="date">
+                    Mar 2023 — Present
                 </div>
-
-                  <ul class='highlights'>
-                      <li>Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems</li>
-                      <li>Managed business continuity and feature delivery during organizational and technological transformation, reporting to management team</li>
-                      <li>Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers</li>
-                      <li>Established enhanced incident management processes, improving system reliability visibility and investment planning</li>
-                      <li>Leading Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>eBay Inc. • eBay Kleinanzeigen</span>
-                  <span class='title'>Engineering Manager - Motors</span>
-                  <span class='date'>
-                    <time datetime="2021-07">Jul 2021</time> &mdash;
-                    <time datetime="2023-02">Feb 2023</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Berlin, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research</li>
-                      <li>Developed and grew team from ground up, successfully promoting multiple engineers and establishing strong technical leadership pipeline</li>
-                      <li>Implemented tailored agile framework focused on team strengths, resulting in one of the organization&#x27;s most experimental and cross-functional teams</li>
-                      <li>Established culture of accountability through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives</li>
-                      <li>Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel</li>
-                      <li>Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with focus on career changers and diverse talent</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>eBay Inc. • eBay Kleinanzeigen</span>
-                  <span class='title'>Senior Software Engineer</span>
-                  <span class='date'>
-                    <time datetime="2020-07">Jul 2020</time> &mdash;
-                    <time datetime="2021-07">Jul 2021</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Berlin, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Led major packaging &amp; pricing initiative for PRO business, overseeing development of multiple commercial features</li>
-                      <li>Architected and executed extraction of Motors domain from monolith, significantly reducing deployment bottlenecks and enabling autonomous team setup</li>
-                      <li>Shared technical leadership for B2C platform, driving architectural decisions and technical debt management</li>
-                      <li>Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement</li>
-                      <li>Established technical assessment practices through interviews and coding challenge reviews</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>eBay Inc. • eBay Kleinanzeigen</span>
-                  <span class='title'>Software Engineer</span>
-                  <span class='date'>
-                    <time datetime="2018-12">Dec 2018</time> &mdash;
-                    <time datetime="2020-06">Jun 2020</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Berlin, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Established gRPC best practices across engineering org, significantly improving service reliability during deployments through enhanced load balancing</li>
-                      <li>Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management</li>
-                      <li>Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions</li>
-                      <li>Contributed to engineering onboarding processes and documentation, including creation of interactive onboarding experience</li>
-                      <li>Operated distributed microservices in multi-datacenter setup</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>Mercury.ai</span>
-                  <span class='title'>Backend Engineer</span>
-                  <span class='date'>
-                    <time datetime="2018-04">Apr 2018</time> &mdash;
-                    <time datetime="2019-07">Jul 2019</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Bielefeld, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Led development of bot building platform enabling rapid chatbot deployment</li>
-                      <li>Designed and implemented centralized logging platform for global monitoring</li>
-                      <li>Established operational excellence on AWS platform: alerting, CI/CD, and dynamic scaling</li>
-                      <li>Optimized development processes by introducing CI/CD, code review, and GitFlow practices</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>Empolis Information Management GmbH</span>
-                  <span class='title'>Junior Solution Engineer</span>
-                  <span class='date'>
-                    <time datetime="2017-07">Jul 2017</time> &mdash;
-                    <time datetime="2018-03">Mar 2018</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Bielefeld, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Designed and developed enterprise search systems for patent search and public administration</li>
-                      <li>Conducted systematic evaluations of search engines for specific use cases</li>
-                      <li>Established DevOps practices including CI/CD pipelines and containerization</li>
-                  </ul>
-                  <div class='separator'></div>
-              </div>
-              <div class='job-block'>
-                <div class='block-header'>
-                  <span class='organization'>Empolis Information Management GmbH</span>
-                  <span class='title'>Apprentice IT Specialist - Application Development</span>
-                  <span class='date'>
-                    <time datetime="2015-08">Aug 2015</time> &mdash;
-                    <time datetime="2017-06">Jun 2017</time>
-                  </span>
-                </div>
-
-                <div class='display-none'>
-                    <span class='location'>Bielefeld, Germany</span>
-                </div>
-
-                  <ul class='highlights'>
-                      <li>Successfully reduced duration of the program from three years down to two years, due to exceptional performance</li>
-                      <li>Designed and developed enterprise search systems for patent search and public administration</li>
-                      <li>Conducted systematic evaluations of search engines for specific use cases</li>
-                      <li>Established DevOps practices including CI/CD pipelines and containerization</li>
-                  </ul>
-              </div>
-          </div>
-        </div>
-        <div class='section-line'></div>
-        <div id='education' class='section-block'>
-          <div class='section-intro'>
-            <div class='section-name'>
-              <span>EDUCATION</span>
             </div>
-            <div class='section-intro-line'></div>
-          </div>
-          <div class='section-content'>
-              <div class='block-header'>
-                <span class='title'>Bielefeld University, exmatriculated</span>
-                  <span class='date'>
-                    Jan 2017 &mdash;
-                    Jan 2017
-                  </span>
-                <div class=''>
-                   - Cognitive Informatics
-                </div>
-              </div>
-                <div class='separator'></div>
-              <div class='block-header'>
-                <span class='title'>Carl-Severing-Berufskolleg für Metall- und Elektrotechnik</span>
-                  <span class='date'>
-                    Jan 2015 &mdash;
-                    Jan 2017
-                  </span>
-                <div class=''>
-                  State-recognized IT Specialist  - Application Development
-                </div>
-              </div>
-          </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems</li>
+                        <li>Managed business continuity and feature delivery during organizational and technological transformation, reporting to management team</li>
+                        <li>Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers</li>
+                        <li>Established enhanced incident management processes, improving system reliability visibility and investment planning</li>
+                        <li>Leading Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework</li>
+                    </ul>
         </div>
-        <div class='section-line'></div>
-        <div id='awards' class='section-block'>
-          <div class='section-intro'>
-            <div class='section-name'>
-              <span>AWARDS</span>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Engineering Manager - Motors
+                </div>
             </div>
-            <div class='section-intro-line'></div>
-          </div>
-          <div class='section-content'>
-              <div class='block-header'>
-                <span class='title'>Critical Talent Award, eBay Inc.</span>
-                  <span class='date'>
-                    <time datetime="2020">Jan 2020</time>
-                  </span>
-              </div>
-          </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Berlin, Germany
+                </div>
+                <div class="date">
+                    Jul 2021 — Feb 2023
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research</li>
+                        <li>Developed and grew team from ground up, successfully promoting multiple engineers and establishing strong technical leadership pipeline</li>
+                        <li>Implemented tailored agile framework focused on team strengths, resulting in one of the organization&#x27;s most experimental and cross-functional teams</li>
+                        <li>Established culture of accountability through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives</li>
+                        <li>Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel</li>
+                        <li>Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with focus on career changers and diverse talent</li>
+                    </ul>
         </div>
-        <div class='section-line'></div>
-    </div>
-  </div>
-</body>
-
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Senior Software Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Berlin, Germany
+                </div>
+                <div class="date">
+                    Jul 2020 — Jul 2021
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Led major packaging &amp; pricing initiative for PRO business, overseeing development of multiple commercial features</li>
+                        <li>Architected and executed extraction of Motors domain from monolith, significantly reducing deployment bottlenecks and enabling autonomous team setup</li>
+                        <li>Shared technical leadership for B2C platform, driving architectural decisions and technical debt management</li>
+                        <li>Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement</li>
+                        <li>Established technical assessment practices through interviews and coding challenge reviews</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Software Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Berlin, Germany
+                </div>
+                <div class="date">
+                    Dec 2018 — Jun 2020
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Established gRPC best practices across engineering org, significantly improving service reliability during deployments through enhanced load balancing</li>
+                        <li>Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management</li>
+                        <li>Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions</li>
+                        <li>Contributed to engineering onboarding processes and documentation, including creation of interactive onboarding experience</li>
+                        <li>Operated distributed microservices in multi-datacenter setup</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Backend Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Bielefeld, Germany
+                </div>
+                <div class="date">
+                    Apr 2018 — Jul 2019
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Led development of bot building platform enabling rapid chatbot deployment</li>
+                        <li>Designed and implemented centralized logging platform for global monitoring</li>
+                        <li>Established operational excellence on AWS platform: alerting, CI/CD, and dynamic scaling</li>
+                        <li>Optimized development processes by introducing CI/CD, code review, and GitFlow practices</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Junior Solution Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Bielefeld, Germany
+                </div>
+                <div class="date">
+                    Jul 2017 — Mar 2018
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Designed and developed enterprise search systems for patent search and public administration</li>
+                        <li>Conducted systematic evaluations of search engines for specific use cases</li>
+                        <li>Established DevOps practices including CI/CD pipelines and containerization</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-subtitle">
+                    Apprentice IT Specialist - Application Development
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Bielefeld, Germany
+                </div>
+                <div class="date">
+                    Aug 2015 — Jun 2017
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Successfully reduced duration of the program from three years down to two years, due to exceptional performance</li>
+                        <li>Designed and developed enterprise search systems for patent search and public administration</li>
+                        <li>Conducted systematic evaluations of search engines for specific use cases</li>
+                        <li>Established DevOps practices including CI/CD pipelines and containerization</li>
+                    </ul>
+        </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Bielefeld University, exmatriculated
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Jan 2017 — Jan 2017
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Carl-Severing-Berufskolleg für Metall- und Elektrotechnik
+                </div>
+                <div class="item-header-subtitle">
+                    State-recognized IT Specialist
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Jan 2015 — Jan 2017
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </section>
+        <section id="awards">
+            <h2>Awards & Recognitions</h2>
+            <ul class="item">
+                <li>
+                    <strong>Critical Talent Award</strong>: Distinguished with eBay&#x27;s highest individual recognition for exceptional impact.
+                </li>
+            </ul>
+        </section>
+    </body>
 </html>
