@@ -4,7 +4,7 @@
     "label": "Engineering Manager",
     "email": "tim@schmolka.org",
     "website": "https://timschmolka.substack.com",
-    "summary": "Technical Leader (5y+) and People Manager (3y+) with more than 9 years of industry experience in scaling engineering organizations and delivering complex technical solutions.\nExpert in leading distributed teams, fostering engineering culture, and driving organizational growth through mentorship and technical excellence.",
+    "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in building distributed teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -25,11 +25,11 @@
       "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
       "location": "Berlin, Germany",
       "highlights": [
-        "Leading engineering team of 9 (trainee to staff) delivering business-critical payment, shipping, and promotion systems",
-        "Managed business continuity and feature delivery during organizational and technological transformation, reporting to management team",
+        "Led engineering team of 9 engineers (from trainee to staff level) including a dedicated Tech Lead, establishing a scalable leadership model while delivering business-critical payment, shipping, and promotion systems",
+        "Directed business continuity and feature delivery during organizational and technological transformation, reporting to management team",
         "Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers",
         "Established enhanced incident management processes, improving system reliability visibility and investment planning",
-        "Leading Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
+        "Created and led Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
       ],
       "skills": [
         {
@@ -51,12 +51,12 @@
       "summary": "Scaled Motors vertical into a strategic business unit through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
       "location": "Berlin, Germany",
       "highlights": [
-        "Launched innovative C2B revenue stream enabling private sellers to connect with dealers during supply shortage, driven by extensive A/B testing and user research",
-        "Developed and grew team from ground up, successfully promoting multiple engineers and establishing strong technical leadership pipeline",
+        "Designed and implemented innovative C2B revenue stream connecting private sellers with dealers during industry supply shortage, creating new market opportunity through extensive A/B testing",
+        "Built and scaled team from ground up, promoting 2 engineers internally and establishing clear technical leadership pipeline with 100% retention rate",
         "Implemented tailored agile framework focused on team strengths, resulting in one of the organization's most experimental and cross-functional teams",
         "Established culture of accountability through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
         "Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel",
-        "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with focus on career changers and diverse talent"
+        "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with 100% career changers and underrepresented talent"
       ],
       "skills": {
         "name": "Technologies",
@@ -72,7 +72,7 @@
       "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
       "location": "Berlin, Germany",
       "highlights": [
-        "Led major packaging & pricing initiative for PRO business, overseeing development of multiple commercial features",
+        "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, significantly reducing deployment bottlenecks and enabling autonomous team setup",
         "Shared technical leadership for B2C platform, driving architectural decisions and technical debt management",
         "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
@@ -112,7 +112,7 @@
       "summary": "Led development of bot building platform and established operational excellence.",
       "location": "Bielefeld, Germany",
       "highlights": [
-        "Led development of bot building platform enabling rapid chatbot deployment",
+        "Led development of bot building platform enabling rapid chatbot deployment for enterprise clients",
         "Designed and implemented centralized logging platform for global monitoring",
         "Established operational excellence on AWS platform: alerting, CI/CD, and dynamic scaling",
         "Optimized development processes by introducing CI/CD, code review, and GitFlow practices"
@@ -148,9 +148,7 @@
       "location": "Bielefeld, Germany",
       "highlights": [
         "Successfully reduced duration of the program from three years down to two years, due to exceptional performance",
-        "Designed and developed enterprise search systems for patent search and public administration",
-        "Conducted systematic evaluations of search engines for specific use cases",
-        "Established DevOps practices including CI/CD pipelines and containerization"
+        "Contributed to enterprise search product development while learning core software engineering practices"
       ],
       "skills": {
         "name": "Technologies",
@@ -187,7 +185,7 @@
       "keywords": [
         "Engineering Management",
         "Technical Leadership",
-        "Team Building",
+        "Team Building and Scaling",
         "Mentoring",
         "Organizational Development",
         "Stakeholder Management"
@@ -197,8 +195,7 @@
       "name": "Technical",
       "keywords": [
         "Distributed Systems",
-        "Microservices",
-        "Monoliths",
+        "Microservice and Monolithic Architecture",
         "System Design",
         "Java",
         "Spring",
