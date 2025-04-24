@@ -25,7 +25,7 @@
       "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
       "highlights": [
         "Led engineering team of 9 engineers (from trainee to staff level) including a dedicated Tech Lead, establishing a scalable leadership model while delivering business-critical payment, shipping, and promotion systems",
-        "Directed business continuity and feature delivery during organizational and technological transformation, reporting to management team",
+        "Ensured business continuity and feature delivery during organizational and technological transformation, reporting to management team",
         "Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers",
         "Established enhanced incident management processes, improving system reliability visibility and investment planning",
         "Created and led Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
@@ -52,7 +52,7 @@
         "Designed and implemented C2B revenue stream connecting private sellers with dealers during industry supply shortage, diversifying revenue beyond mobile.de dealer offerings through data-driven A/B testing",
         "Built and scaled team from ground up, promoting 2 engineers internally and establishing clear technical leadership pipeline with 100% retention rate",
         "Implemented tailored agile framework focused on team strengths, resulting in one of the organization's most experimental and cross-functional teams",
-        "Established culture of accountability through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
+        "Established culture of ownership  through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
         "Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel",
         "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with 100% career changers and underrepresented talent"
       ],
@@ -69,7 +69,7 @@
       "endDate": "2021-07",
       "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
       "highlights": [
-        "Shared technical leadership for Motors and PRO domains, driving architectural decisions and technical debt management",
+        "Shared technical leadership for Motors and PRO domains, making architectural decisions managing technical debt with focus on system reliability",
         "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
         "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
@@ -109,7 +109,7 @@
       "highlights": [
         "Led development of bot building platform enabling rapid chatbot deployment for enterprise clients",
         "Designed and implemented centralized logging platform for global monitoring",
-        "Established operational excellence on AWS platform: alerting, CI/CD, and dynamic scaling",
+        "Established operational excellence on AWS platform: alerting, CI/CD, security and dynamic scaling",
         "Optimized development processes by introducing CI/CD, code review, and GitFlow practices"
       ],
       "skills": {
@@ -151,15 +151,16 @@
   ],
   "education": [
     {
-      "institution": "Cognitive Informatics • Bielefeld University, exmatriculated",
+      "institution": "Cognitive Informatics • Bielefeld University",
       "area": "Cognitive Informatics",
-      "studyType": "B.S",
+      "studyType": "B.S (exmatriculated)",
       "startDate": "2017-10-01",
       "endDate": "2017-12-31"
     },
     {
-      "institution": "State-recognized IT Specialist • Application Development • Carl-Severing-Berufskolleg für Metall- und Elektrotechnik",
+      "institution": "State-recognized IT Specialist • Carl-Severing-Berufskolleg für Metall- und Elektrotechnik",
       "specialization": "Application Development",
+      "studyType": "Application Development",
       "startDate": "2015-08-01",
       "endDate": "2017-06-30"
     }
@@ -176,8 +177,8 @@
     {
       "name": "Leadership",
       "keywords": [
-        "Engineering Management",
         "Technical Leadership",
+        "Engineering Management",
         "Team Building and Scaling",
         "Mentoring",
         "Organizational Development",
@@ -190,21 +191,24 @@
         "Distributed Systems",
         "Microservice and Monolithic Architecture",
         "System Design",
+        "Service Reliability",
+        "Kubernetes",
+        "AWS",
         "Java",
         "Spring",
         "NoSQL",
-        "Kubernetes",
-        "AWS"
+        "DevOps"
       ]
     },
     {
       "name": "Domain Expertise",
       "keywords": [
         "E-commerce Platforms",
+        "Incident Management",
         "Payment Systems",
         "Promotion Engines",
-        "DevOps",
-        "Agile Methodologies"
+        "Cross-Team collaboration",
+        "On-call operations"
       ]
     }
   ],
