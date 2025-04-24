@@ -69,7 +69,7 @@
       "endDate": "2021-07",
       "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
       "highlights": [
-        "Shared technical leadership for B2C platform, driving architectural decisions and technical debt management",
+        "Shared technical leadership for Motors and PRO domains, driving architectural decisions and technical debt management",
         "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
         "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
