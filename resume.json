@@ -4,7 +4,7 @@
     "label": "Engineering Manager",
     "email": "tim@schmolka.org",
     "website": "https://thehumansideof.tech",
-    "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in building distributed teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
+    "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in bootstrapping teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -42,8 +42,8 @@
       ]
     },
     {
-      "name": "eBay Inc. • eBay Kleinanzeigen",
-      "company": "eBay Inc. • eBay Kleinanzeigen",
+      "name": "Adevinta • Kleinanzeigen",
+      "company": "Adevinta • Kleinanzeigen",
       "position": "Engineering Manager - Motors",
       "startDate": "2021-07",
       "endDate": "2023-02",
