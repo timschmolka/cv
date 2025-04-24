@@ -4,7 +4,7 @@
     "label": "Engineering Manager",
     "email": "tim@schmolka.org",
     "website": "https://thehumansideof.tech",
-    "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in bootstrapping teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
+    "summary": "Engineering Leader with 5+ years of technical leadership and 3+ years of people management experience, specializing in high-availability systems serving 40M+ monthly users. Proven track record of scaling engineering teams, executing AWS migrations, and implementing EU compliance requirements. Experienced in managing on-call responsibilities and optimizing distributed systems for performance and reliability while connecting technical strategy to business objectives.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -26,8 +26,8 @@
       "highlights": [
         "Led engineering team of 9 engineers (from trainee to staff level) including a dedicated Tech Lead, establishing a scalable leadership model while delivering business-critical payment, shipping, and promotion systems",
         "Ensured business continuity and feature delivery during organizational and technological transformation, reporting to management team",
-        "Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers",
-        "Established enhanced incident management processes, improving system reliability visibility and investment planning",
+        "Led complete AWS migration for transaction systems, implementing cloud-native architecture while ensuring business continuity",
+        "Established and optimized on-call procedures, improving incident response and system reliability metrics",
         "Created and led Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
       ],
       "skills": [
@@ -51,7 +51,7 @@
       "highlights": [
         "Designed and implemented C2B revenue stream connecting private sellers with dealers during industry supply shortage, diversifying revenue beyond mobile.de dealer offerings through data-driven A/B testing",
         "Built and scaled team from ground up, promoting 2 engineers internally and establishing clear technical leadership pipeline with 100% retention rate",
-        "Implemented tailored agile framework focused on team strengths, resulting in one of the organization's most experimental and cross-functional teams",
+        "Facilitated knowledge transfer workshops between German and French engineering teams during organizational transformation",
         "Established culture of ownership  through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
         "Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel",
         "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with 100% career changers and underrepresented talent"
@@ -73,7 +73,7 @@
         "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
         "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
-        "Established technical assessment practices through interviews and coding challenge reviews"
+        "Optimized network stack to improve HTTP2/gRPC latencies and reliability in distributed systems environment"
       ],
       "skills": {
         "name": "Technologies",
@@ -191,24 +191,26 @@
       "keywords": [
         "Distributed Systems",
         "Microservice and Monolithic Architecture",
-        "System Design",
-        "Service Reliability",
+        "High-Availability System Design",
+        "Cloud Migrations",
+        "Network Stack",
         "Kubernetes",
-        "AWS",
+        "AWS (EC2, S3, Lambda)",
+        "NoSQL (Cassandra)",
+        "DevOps",
+        "Kafka",
         "Java",
-        "Spring",
-        "NoSQL",
-        "DevOps"
+        "Spring"
       ]
     },
     {
       "name": "Domain Expertise",
       "keywords": [
-        "E-commerce Platforms",
         "Incident Management",
+        "On-call operations",
         "Payment Systems",
         "Promotion Engines",
-        "On-call operations"
+        "E-commerce Platforms"
       ]
     }
   ],
