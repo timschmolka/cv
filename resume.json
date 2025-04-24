@@ -64,14 +64,14 @@
     {
       "name": "eBay Inc. • eBay Kleinanzeigen",
       "company": "eBay Inc. • eBay Kleinanzeigen",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer, Fractional Tech Lead",
       "startDate": "2020-07",
       "endDate": "2021-07",
       "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
       "highlights": [
+        "Shared technical leadership for Motors and PRO domains, driving architectural decisions and technical debt management",
         "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
         "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
-        "Shared technical leadership for B2C platform, driving architectural decisions and technical debt management",
         "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
         "Established technical assessment practices through interviews and coding challenge reviews"
       ],
@@ -88,9 +88,9 @@
       "endDate": "2020-06",
       "summary": "Member of cross-functional B2C team, focusing on platform features and technical excellence.",
       "highlights": [
+        "Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions",
         "Established gRPC best practices across engineering org, improving service reliability during deployments through enhanced load balancing",
         "Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management",
-        "Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions",
         "Contributed to engineering onboarding processes and documentation, including creation of interactive onboarding experience",
         "Operated distributed microservices in multi-datacenter setup"
       ],
