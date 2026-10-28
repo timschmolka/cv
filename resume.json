@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Tim Schmolka",
-    "label": "Engineering Manager",
+    "label": "Hands-on Technical Leader · Payments & Marketplace Systems · Agent-first Development",
     "email": "tim@schmolka.org",
-    "website": "https://thehumansideof.tech",
-    "summary": "Engineering Leader with 6+ years of technical leadership and 5+ years of people management experience across high-growth e-commerce platforms. Proven track record of scaling engineering teams, driving organizational transformation, and delivering complex technical systems. Expert in bootstrapping teams, fostering engineering excellence, and connecting technical strategy to business objectives.",
+    "summary": "Hands-on engineering leader with 10+ years in backend development, nearly 8 at Kleinanzeigen, Germany's largest classifieds marketplace (40M+ monthly visitors), the last 5 as engineering manager, often doubling as tech lead. Known for de-risked migrations of checkout-critical systems, resilient event-driven design and cross-team reliability standards.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -12,218 +11,136 @@
     "profiles": [
       {
         "network": "LinkedIn",
+        "username": "tim-schmolka",
         "url": "https://www.linkedin.com/in/tim-schmolka"
       }
     ]
   },
   "work": [
     {
-      "name": "Adevinta • Kleinanzeigen",
-      "company": "Adevinta • Kleinanzeigen",
-      "position": "Engineering Manager - Transactions",
+      "name": "Kleinanzeigen (formerly eBay Kleinanzeigen)",
+      "description": "part of Adevinta, eBay until 2021",
+      "position": "Engineering Manager, Transactions (Payments · Shipping · Promotions) · Tech Lead since 2025",
       "startDate": "2023-03",
-      "summary": "Engineering leader managing critical revenue systems for Germany's largest C2C marketplace, responsible for payments, shipping, and promotions while driving engineering excellence through team and organizational initiatives.",
       "highlights": [
-        "Led engineering team of 9 engineers (from trainee to staff level) including a dedicated Tech Lead, establishing a scalable leadership model while delivering business-critical payment, shipping, and promotion systems",
-        "Ensured business continuity and feature delivery during organizational and technological transformation, reporting to management team",
-        "Delivered key platform features to close functional gaps, including shipping integration overhaul and new payment providers",
-        "Established enhanced incident management processes, improving system reliability visibility and investment planning",
-        "Created and led Engineering Management Guild (~8 EMs), establishing mentoring program and engineering leveling framework"
-      ],
-      "skills": [
-        {
-          "name": "Engineering Leadership",
-          "keywords": ["Team Management", "Organizational Development", "Technical Strategy", "Mentoring", "Hiring"]
-        },
-        {
-          "name": "Technologies",
-          "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "AWS", "React", "TypeScript"]
-        }
+        "Designed the routing engine that ran both payment service providers (PSPs) side by side for a zero-downtime rollout and sunset in the 5-team switch to Adyen (2025–26), delivered on time in 18 months against a consultancy's 3-year estimate, with 100% of checkouts on Adyen 4 weeks after launch; owned the program's operational health (monitoring, incident response, bug triage, tech debt)",
+        "Led seller onboarding and identity verification (KYC): mapped Adyen's account and verification states onto Kleinanzeigen's seller UX, moved millions of sellers, and built event-driven PSP account management that stays consistent through failures and retries (outbox, idempotent consumers)",
+        "Migrated the legacy promotion engine to Talon.One (promotions platform) in ~3 months as lead developer: ran event-storming to set domain boundaries, wrote the design doc, and de-risked the cut-over with shadow traffic on every checkout and a resilient integration",
+        "Moved the team to agent-first development: Claude Code writes the code, engineers own design, test strategy and review, without compromising quality",
+        "Scaling agent-first across the Transactions department (5 teams) while keeping the codebase maintainable: proposed a north-star module architecture (DDD context map) for the core payment service, plus guardrails that keep agents within it and surface important design decisions to engineers",
+        "Set reliability standards beyond the team: defined the payment service's first service-level objectives (SLOs), wrote the department's incident management standard and a company-wide alerting standard (pending CTO approval), and became co-owner of the company's incident process",
+        "Managed up to 9 engineers (trainee to Staff level)"
       ]
     },
     {
-      "name": "Adevinta • Kleinanzeigen",
-      "company": "Adevinta • Kleinanzeigen",
-      "position": "Engineering Manager - Motors",
+      "name": "Kleinanzeigen (formerly eBay Kleinanzeigen)",
+      "description": "part of Adevinta, eBay until 2021",
+      "position": "Engineering Manager & Tech Lead, Motors",
       "startDate": "2021-07",
       "endDate": "2023-02",
-      "summary": "Scaled Motors vertical into a strategic business unit through dedicated team building, data-driven experimentation, and cross-entity partnerships.",
       "highlights": [
-        "Designed and implemented C2B revenue stream connecting private sellers with dealers during industry supply shortage, diversifying revenue beyond mobile.de dealer offerings through data-driven A/B testing",
-        "Built and scaled team from ground up, promoting 2 engineers internally and establishing clear technical leadership pipeline with 100% retention rate",
-        "Implemented tailored agile framework focused on team strengths, resulting in one of the organization's most experimental and cross-functional teams",
-        "Established culture of ownership  through OKR alignment and regular goal-setting, directly connecting team contributions to company objectives",
-        "Led and optimized company-wide engineering hiring process for high-volume scaling, implementing candidate experience SLOs and streamlined assessment funnel",
-        "Co-led successful global trainee program resulting in 15+ engineering hires across two cohorts, with 100% career changers and underrepresented talent"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "GCP", "React", "TypeScript"]
-      }
+        "Built the Motors (cars) team, responsible for eight-figure annual revenue (2 internal promotions, 100% retention)",
+        "Launched a new revenue stream, now six figures a year, letting private sellers offer their car to dealers via sister marketplace mobile.de: A/B-tested entry points and a gRPC-streaming notification service",
+        "Built a Customer Effort Score feedback service adopted by other teams; co-led a trainee program that hired and mentored 15+ career changers"
+      ]
     },
     {
-      "name": "eBay Inc. • eBay Kleinanzeigen",
-      "company": "eBay Inc. • eBay Kleinanzeigen",
-      "position": "Senior Software Engineer, Fractional Tech Lead",
+      "name": "Kleinanzeigen (formerly eBay Kleinanzeigen)",
+      "description": "part of Adevinta, eBay until 2021",
+      "position": "Senior Software Engineer & Tech Lead, Motors & PRO",
       "startDate": "2020-07",
-      "endDate": "2021-07",
-      "summary": "Led technical development of PRO subscription platform and spearheaded strategic initiatives.",
+      "endDate": "2021-06",
       "highlights": [
-        "Shared technical leadership for Motors and PRO domains, making architectural decisions managing technical debt with focus on system reliability",
-        "Led major packaging and pricing initiative for PRO business, overseeing development of multiple commercial features",
-        "Architected and executed extraction of Motors domain from monolith, reducing deployment bottlenecks and enabling autonomous team setup",
-        "Facilitated platform-wide migration from Mesos/Marathon to Kubernetes through service migrations and developer enablement",
-        "Established technical assessment practices through interviews and coding challenge reviews"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "Kubernetes", "GCP"]
-      }
+        "Architected and led Motors' extraction from the monolith: hexagonal architecture, own data store, Kafka, AWS via Terraform",
+        "Led engineering for PRO, the subscription product for business sellers (new packages and pricing); moved services from Mesos to Kubernetes",
+        "Wrote the company-wide architecture decision record (ADR) replacing Hystrix with Resilience4j for fault tolerance"
+      ]
     },
     {
-      "name": "eBay Inc. • eBay Kleinanzeigen",
-      "company": "eBay Inc. • eBay Kleinanzeigen",
+      "name": "Kleinanzeigen (formerly eBay Kleinanzeigen)",
+      "description": "part of Adevinta, eBay until 2021",
       "position": "Software Engineer",
       "startDate": "2018-12",
       "endDate": "2020-06",
-      "summary": "Member of cross-functional B2C team, focusing on platform features and technical excellence.",
       "highlights": [
-        "Shared technical leadership for Motors and PRO domains from 2020, including stakeholder management and architectural decisions",
-        "Established gRPC best practices across engineering org, improving service reliability during deployments through enhanced load balancing",
-        "Developed core B2C platform capabilities including visibility feature packages and cross-domain subscription management",
-        "Contributed to engineering onboarding processes and documentation, including creation of interactive onboarding experience",
-        "Operated distributed microservices in multi-datacenter setup"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring", "gRPC", "MySQL", "Kafka", "Grafana", "OpenStack"]
-      }
+        "Built the services behind business sellers' shop pages (Kafka-fed caches); maintained the shared gRPC library and load balancing across teams"
+      ]
     },
     {
       "name": "Mercury.ai",
-      "company": "Mercury.ai",
-      "position": "Backend Engineer",
+      "position": "Backend Engineer (part-time from Dec 2018)",
       "startDate": "2018-04",
       "endDate": "2019-07",
-      "summary": "Led development of bot building platform and established operational excellence.",
       "highlights": [
-        "Led development of bot building platform enabling rapid chatbot deployment for enterprise clients",
-        "Designed and implemented centralized logging platform for global monitoring",
-        "Established operational excellence on AWS platform: alerting, CI/CD, security and dynamic scaling",
-        "Optimized development processes by introducing CI/CD, code review, and GitFlow practices"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring Boot", "Guice", "AWS", "Elasticsearch"]
-      }
+        "Led backend development of an enterprise chatbot-building platform (Java, AWS); introduced CI/CD, code review, centralized logging and autoscaling"
+      ]
     },
     {
-      "name": "Empolis Information Management GmbH",
-      "company": "Empolis Information Management GmbH",
-      "position": "Junior Solution Engineer",
-      "startDate": "2017-07",
+      "name": "Empolis Information Management",
+      "position": "Junior Solution Engineer · IT Specialist apprentice",
+      "startDate": "2015-08",
       "endDate": "2018-03",
       "highlights": [
-        "Designed and developed enterprise search systems for patent search and public administration",
-        "Conducted systematic evaluations of search engines for specific use cases",
-        "Established DevOps practices including CI/CD pipelines and containerization"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring Boot", "Elasticsearch", "AngularJS", "MySQL", "Docker"]
-      }
-    },
-    {
-      "name": "Empolis Information Management GmbH",
-      "company": "Empolis Information Management GmbH",
-      "position": "Apprentice IT Specialist - Application Development",
-      "startDate": "2015-08",
-      "endDate": "2017-06",
-      "highlights": [
-        "Reduced duration of the program from three years down to two years, due to exceptional performance",
-        "Contributed to enterprise search product development while learning core software engineering practices"
-      ],
-      "skills": {
-        "name": "Technologies",
-        "keywords": ["Java", "Spring Boot", "Elasticsearch", "AngularJS", "MySQL", "Docker"]
-      }
-    }
-  ],
-  "education": [
-    {
-      "institution": "Cognitive Informatics • Bielefeld University",
-      "area": "Cognitive Informatics",
-      "studyType": "B.S (exmatriculated)",
-      "startDate": "2017-10-01",
-      "endDate": "2017-12-31"
-    },
-    {
-      "institution": "State-recognized IT Specialist • Carl-Severing-Berufskolleg für Metall- und Elektrotechnik",
-      "specialization": "Application Development",
-      "studyType": "Application Development",
-      "startDate": "2015-08-01",
-      "endDate": "2017-06-30"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Critical Talent Award",
-      "date": "2020",
-      "awarder": "eBay Inc.",
-      "summary": "Distinguished with eBay's highest individual recognition for exceptional impact."
+        "Built enterprise search (Java, Elasticsearch) for patent and public-sector clients; finished the apprenticeship in 2 instead of 3 years"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Leadership",
-      "keywords": [
-        "Technical Leadership",
-        "Engineering Management",
-        "Team Building and Scaling",
-        "Mentoring",
-        "Organizational Development",
-        "Cross-Team collaboration",
-        "Stakeholder Management"
-      ]
+      "name": "Architecture",
+      "keywords": ["distributed systems", "system design", "event-driven architecture", "modular architecture", "domain-driven design", "architecture decision records"]
     },
     {
-      "name": "Technical",
-      "keywords": [
-        "Distributed Systems",
-        "Microservice and Monolithic Architecture",
-        "System Design",
-        "Service Reliability",
-        "Kubernetes",
-        "AWS",
-        "Java",
-        "Spring",
-        "NoSQL",
-        "DevOps"
-      ]
+      "name": "Technologies",
+      "keywords": ["Java", "Spring Boot", "Kafka", "gRPC", "PostgreSQL", "MySQL", "Cassandra", "BigQuery", "TypeScript", "Go", "Python"]
     },
     {
-      "name": "Domain Expertise",
-      "keywords": [
-        "E-commerce Platforms",
-        "Incident Management",
-        "Payment Systems",
-        "Promotion Engines",
-        "On-call operations"
-      ]
+      "name": "Cloud & observability",
+      "keywords": ["AWS", "GCP", "Kubernetes", "Terraform", "Helm", "Argo CD", "Grafana", "Prometheus"]
+    },
+    {
+      "name": "Practices",
+      "keywords": ["agentic/agent-first development (Claude Code)", "SLOs", "incident management", "staged rollouts", "A/B testing", "mentoring"]
+    },
+    {
+      "name": "Payments & marketplaces",
+      "keywords": ["PSPs (Adyen)", "KYC/onboarding", "consent & GDPR", "promotions (Talon.One)", "shipping (DHL, Hermes)"]
     }
   ],
   "languages": [
     {
       "language": "German",
-      "fluency": "Native"
+      "fluency": "native"
     },
     {
       "language": "English",
-      "fluency": "Full Professional"
+      "fluency": "full professional"
     },
     {
       "language": "Portuguese",
-      "fluency": "Elementary"
+      "fluency": "elementary"
     }
-  ]
+  ],
+  "education": [
+    {
+      "institution": "Carl-Severing-Berufskolleg, Bielefeld",
+      "area": "Application Development (dual apprenticeship)",
+      "studyType": "State-recognized IT Specialist",
+      "startDate": "2015-08",
+      "endDate": "2017-06"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Critical Talent Award (2020)",
+      "date": "2020",
+      "awarder": "eBay Inc.",
+      "summary": "eBay's highest individual recognition for exceptional impact"
+    }
+  ],
+  "meta": {
+    "canonical": "https://schmolka.cv",
+    "pdf": "resume.pdf",
+    "lastModified": "2026-10-27"
+  }
 }

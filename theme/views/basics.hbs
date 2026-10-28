@@ -1,0 +1,34 @@
+{{#resume.basics}}
+<section id="basics">
+    <h1>{{name}}</h1>
+    {{#if label}}
+    <div class="label centered">{{label}}</div>
+    {{/if}}
+    <div class="contact centered">
+        {{#if email~}}
+        <span class="vertical-separator">{{wrapMail email}}</span>
+        {{~/if}}
+        {{#if phone~}}
+        <span class="vertical-separator">{{phone}}</span>
+        {{~/if}}
+        {{#if location~}}
+        <span class="vertical-separator">{{location.city}}, {{location.countryCode}}</span>
+        {{~/if}}
+        {{#each profiles~}}
+        <span class="vertical-separator"><a href="{{url}}">{{prettyURL url}}</a></span>
+        {{~/each}}
+        {{#if url~}}
+        <span class="vertical-separator"><a href="{{url}}">{{prettyURL url}}</a></span>
+        {{~/if}}
+        {{#if @root.resume.meta.pdf~}}
+        <span class="vertical-separator pdf-link"><a href="{{@root.resume.meta.pdf}}">PDF</a></span>
+        {{~/if}}
+    </div>
+    {{#if summary}}
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>{{{summary}}}</p>
+    </div>
+    {{/if}}
+</section>
+{{/resume.basics}}
